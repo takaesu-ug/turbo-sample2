@@ -8,6 +8,7 @@
     "./code": "./src/code.tsx"
   },
   "scripts": {
+    "shadcn-ui:add": "pnpm dlx shadcn-ui@latest add",
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component"
   },
@@ -26,5 +27,13 @@
     "react": "^18.2.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@radix-ui/react-accordion": "^1.1.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.338.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
