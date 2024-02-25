@@ -4,7 +4,10 @@ import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { ChevronDown } from 'lucide-react';
 import * as React from 'react';
 
-import { cn } from '@ui/lib/utils';
+// TODO: path aliasesを設定したい
+// import { cn } from '@ui/lib/utils';
+// import { cn } from 'ui/src/lib/utils';
+import { cn } from '../lib/utils';
 
 const Accordion = AccordionPrimitive.Root;
 
@@ -24,7 +27,7 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        'flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180',
+        'flex flex-1 items-center justify-between py-4 font-medium font-mono transition-all hover:underline [&[data-state=open]>svg]:rotate-180',
         className,
       )}
       {...props}
