@@ -1,3 +1,4 @@
+// https://github.com/vercel/style-guide/blob/canary/prettier/index.js
 module.exports = {
   endOfLine: 'lf',
   singleQuote: true,
