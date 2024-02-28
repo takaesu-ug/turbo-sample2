@@ -36,7 +36,7 @@ export default function Home() {
           セカンダリ
         </Badge>
         <Badge variant="destructive" className="ml-2">
-          デスとラクティブ
+          デストラクティブ
         </Badge>
         <Badge variant="outline" className="ml-2">
           アウトライン

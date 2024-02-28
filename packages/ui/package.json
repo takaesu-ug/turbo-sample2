@@ -5,7 +5,8 @@
   "main": "index.tsx",
   "exports": {
     ".": "./index.tsx",
-    "./components/*": "./src/components/*.tsx"
+    "./components/*": "./src/components/*.tsx",
+    "./tailwind.config": "./tailwind.config.ts"
   },
   "scripts": {
     "shadcn-ui:add": "pnpm dlx shadcn-ui@latest add",
@@ -13,7 +14,6 @@
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {
-    "@repo/config-tailwind": "workspace:*",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@turbo/gen": "^1.11.3",
