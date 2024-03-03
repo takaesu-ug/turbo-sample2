@@ -8,4 +8,5 @@ module.exports = {
   printWidth: 100,
   useTabs: false,
   // plugins: ['prettier-plugin-packagejson'],
+  plugins: ['prettier-plugin-organize-imports'],
 };
