@@ -3,5 +3,13 @@
     {
       "mode": "auto"
     }
+  ],
+  "tailwindCSS.experimental.configFile": {
+    "packages/ui/tailwind.config.ts": "packages/ui/**",
+    "apps/my-app/tailwind.config.ts": "apps/my-app/**"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
   ]
 }
