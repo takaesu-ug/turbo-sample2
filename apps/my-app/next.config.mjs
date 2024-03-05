@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['@repo/ui', '@repo/config-tailwind'],
+  transpilePackages: ['@repo/ui'],
 };
 
 export default nextConfig;

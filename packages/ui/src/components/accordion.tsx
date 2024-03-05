@@ -4,10 +4,7 @@ import * as AccordionPrimitive from '@radix-ui/react-accordion';
 import { ChevronDown } from 'lucide-react';
 import * as React from 'react';
 
-// TODO: path aliasesを設定したい
-// import { cn } from '@ui/lib/utils';
-// import { cn } from 'ui/src/lib/utils';
-import { cn } from '../lib/utils';
+import { cn } from '@repo/ui/lib/utils';
 
 const Accordion = AccordionPrimitive.Root;
 

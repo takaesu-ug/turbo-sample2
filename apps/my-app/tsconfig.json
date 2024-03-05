@@ -3,7 +3,8 @@
   "compilerOptions": {
     "plugins": [{ "name": "next" }],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@repo/ui/*": ["../../packages/ui/src/*"], // モノレポでuiワークスペース内のパスエイリアスを解決する
     }
   },
   "include": [
