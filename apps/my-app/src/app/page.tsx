@@ -1,10 +1,16 @@
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Badge } from '@repo/ui';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+  Badge,
+  Test,
+} from '@repo/ui';
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1 className="border-8 p-8 text-3xl font-bold">my-app-1</h1>
-
       <div className="w-full">
         <h2>アコーディオン</h2>
         <Accordion type="single" collapsible className="w-full">
@@ -28,7 +34,6 @@ export default function Home() {
           </AccordionItem>
         </Accordion>
       </div>
-
       <div className="w-full">
         <h2>バッジ</h2>
         <Badge>デフォルト</Badge>
@@ -41,6 +46,11 @@ export default function Home() {
         <Badge variant="outline" className="ml-2">
           アウトライン
         </Badge>
+      </div>
+
+      <div className="w-full">
+        <h2>test</h2>
+        <Test />
       </div>
     </main>
   );
