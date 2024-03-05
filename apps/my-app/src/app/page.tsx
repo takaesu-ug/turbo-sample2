@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger, Badge } f
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-3xl font-bold">my-app-1</h1>
+      <h1 className="border-8 p-8 text-3xl font-bold">my-app-1</h1>
 
       <div className="w-full">
         <h2>アコーディオン</h2>

@@ -5,6 +5,8 @@
   "exports": {
     ".": "./index.tsx",
     "./components/*": "./src/components/*.tsx",
+    "./globals.css": "./src/globals.css",
+    "./postcss.config": "./postcss.config.js",
     "./tailwind.config": "./tailwind.config.ts"
   },
   "main": "index.tsx",
