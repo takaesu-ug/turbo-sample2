@@ -10,7 +10,7 @@ function Test() {
   return (
     <>
       <Badge>デフォルト</Badge>
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" collapsible={true} className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger>Is it accessible?</AccordionTrigger>
           <AccordionContent className="text-purple-600">テストで</AccordionContent>
