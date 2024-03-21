@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.6.1",
-    "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "turbo": "latest"
   },

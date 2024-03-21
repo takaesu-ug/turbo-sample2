@@ -1,8 +1,0 @@
-{
-  "extends": "@repo/typescript-config/tsconfig.react-library.json",
-  "compilerOptions": {
-    "outDir": "dist"
-  },
-  "include": ["src", "turbo", "**/*.ts", "**/*.tsx", "postcss.config.js"],
-  "exclude": ["node_modules", "dist"]
-}
